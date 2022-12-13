@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Enter user name[[ChromeDriver: chrome on WINDOWS (1cc5f305c2807ceb7e184670c76f12ee)] -> id: username]]]>
+    </line>
+    <line>
+      <![CDATA[Enter Password[[ChromeDriver: chrome on WINDOWS (1cc5f305c2807ceb7e184670c76f12ee)] -> name: password]]]>
+    </line>
+    <line>
+      <![CDATA[Click on login[[ChromeDriver: chrome on WINDOWS (1cc5f305c2807ceb7e184670c76f12ee)] -> xpath: //i[@class='fa fa-2x fa-sign-in']]]]>
+    </line>
+    <line>
+      <![CDATA[Get Text Message[[ChromeDriver: chrome on WINDOWS (1cc5f305c2807ceb7e184670c76f12ee)] -> xpath: //h2[text()=' Secure Area']]]]>
+    </line>
+  </reporter-output>
+  <suite name="sanity testsuite" duration-ms="5822" started-at="2022-12-13T23:05:27 AEST" finished-at="2022-12-13T23:05:33 AEST">
+    <groups>
+      <group name="regression">
+        <method signature="LoginPageTest.userShouldLoginSuccessfullyWithValidCredentials()[pri:0, instance:com.herokuapp.internet.the.testsuite.LoginPageTest@706a04ae]" name="userShouldLoginSuccessfullyWithValidCredentials" class="com.herokuapp.internet.the.testsuite.LoginPageTest"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="LoginPageTest.userShouldLoginSuccessfullyWithValidCredentials()[pri:0, instance:com.herokuapp.internet.the.testsuite.LoginPageTest@706a04ae]" name="userShouldLoginSuccessfullyWithValidCredentials" class="com.herokuapp.internet.the.testsuite.LoginPageTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="sanity Test" duration-ms="5822" started-at="2022-12-13T23:05:27 AEST" finished-at="2022-12-13T23:05:33 AEST">
+      <class name="com.herokuapp.internet.the.testsuite.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.herokuapp.internet.the.testsuite.LoginPageTest@706a04ae]" name="setUp" is-config="true" duration-ms="4300" started-at="2022-12-13T23:05:27 AEST" finished-at="2022-12-13T23:05:31 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.herokuapp.internet.the.testsuite.LoginPageTest@706a04ae]" name="inIt" is-config="true" duration-ms="24" started-at="2022-12-13T23:05:31 AEST" finished-at="2022-12-13T23:05:31 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="userShouldLoginSuccessfullyWithValidCredentials()[pri:0, instance:com.herokuapp.internet.the.testsuite.LoginPageTest@706a04ae]" name="userShouldLoginSuccessfullyWithValidCredentials" duration-ms="530" started-at="2022-12-13T23:05:31 AEST" finished-at="2022-12-13T23:05:32 AEST">
+          <reporter-output>
+            <line>
+              <![CDATA[Enter user name[[ChromeDriver: chrome on WINDOWS (1cc5f305c2807ceb7e184670c76f12ee)] -> id: username]]]>
+            </line>
+            <line>
+              <![CDATA[Enter Password[[ChromeDriver: chrome on WINDOWS (1cc5f305c2807ceb7e184670c76f12ee)] -> name: password]]]>
+            </line>
+            <line>
+              <![CDATA[Click on login[[ChromeDriver: chrome on WINDOWS (1cc5f305c2807ceb7e184670c76f12ee)] -> xpath: //i[@class='fa fa-2x fa-sign-in']]]]>
+            </line>
+            <line>
+              <![CDATA[Get Text Message[[ChromeDriver: chrome on WINDOWS (1cc5f305c2807ceb7e184670c76f12ee)] -> xpath: //h2[text()=' Secure Area']]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userShouldLoginSuccessfullyWithValidCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.herokuapp.internet.the.testsuite.LoginPageTest@706a04ae]" name="tearDown" is-config="true" duration-ms="706" started-at="2022-12-13T23:05:32 AEST" finished-at="2022-12-13T23:05:33 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.herokuapp.internet.the.testsuite.LoginPageTest -->
+    </test> <!-- sanity Test -->
+  </suite> <!-- sanity testsuite -->
+</testng-results>
